@@ -93,6 +93,54 @@ aside header {
   transform: translateY(-4px);
 }
 
+.search {
+  background-color: var(--grey-800);
+  padding: 10px;
+}
+
+.search form input {
+  background-color: var(--grey-700);
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+}
+
+.search input:focus {
+  outline: 1px solid var(--green-300);
+}
+
+.chats {
+    padding: 0 20px;
+}
+.chats ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-chat {
+  background-color: var(--grey-900);
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-chat img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.user-chat:hover {
+  background-color: var(--grey-700);
+  cursor: pointer;
+  border-left: 3px solid var(--green-400);
+}
 
 
 
